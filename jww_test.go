@@ -3,13 +3,14 @@
 // Use of this source code is governed by an MIT-style
 // license that can be found in the LICENSE file.
 
-package jwalterweatherman
+package log
 
 import (
 	"bytes"
-	"github.com/stretchr/testify/assert"
 	"sync"
 	"testing"
+
+	"github.com/stretchr/testify/assert"
 )
 
 func TestLevels(t *testing.T) {
